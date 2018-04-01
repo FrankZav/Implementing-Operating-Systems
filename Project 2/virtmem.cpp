@@ -1,4 +1,3 @@
-//Francisco Zavalza #62706684 CS143B Project 2
 
 #include <iostream>
 #include <bitset>
