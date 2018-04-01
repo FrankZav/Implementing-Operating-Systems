@@ -338,14 +338,14 @@ int is_descendent(PCB* process, std::string name) {
 }
 
 void shell() {
-	//std::string fname;
-	//std::string fname2";
-	//std::cout << "path to input file?: ";
-	//std::cin >> fname;
-	//std::cout << "path to output file?: ";
-	//std::cin >> fname2;
-	std::ifstream ourinput("E:\\input.txt");
-	std::ofstream ouroutput("E:\\62706684.txt");
+	std::string fname;
+	std::string fname2";
+	std::cout << "path to input file?: ";
+	std::cin >> fname;
+	std::cout << "path to output file?: ";
+	std::cin >> fname2;
+	std::ifstream ourinput(fname);
+	std::ofstream ouroutput(fname2);
 	std::string buf;
 	ouroutput << scheduler();
 	while (std::getline(ourinput, buf)) {
