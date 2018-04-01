@@ -437,8 +437,5 @@ int main() {
 
 	PCB* init = Create("init", 0);
 	shell();
-	/*
-	C:\Users\Home\Desktop\sample.txt
-	*/
 	return 0;
 }
