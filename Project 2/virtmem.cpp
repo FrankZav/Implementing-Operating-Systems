@@ -233,9 +233,17 @@ void shell(){
 }
 
 void TLBshell(){
-	std::ifstream initial("E:\\input1.txt");
-	std::ifstream ourinput("E:\\input2.txt");
-	std::ofstream ouroutput("E:\\62706684_tlb.txt");
+	std::string fname;
+	std::string fname2";
+	std::cout << "path to init file?: ";
+	std::cin >> fname;
+	std::cout << "path to input file?: ";
+	std::cin >> fname2;
+	std::cout << "path to output file?: ";
+	std::cin >> fname3;
+	std::ifstream initial(fname);
+	std::ifstream ourinput(fname2);
+	std::ofstream ouroutput(fname3);
 	std::string buf;
 	std::getline(initial, buf);
 	std::string a = "";
