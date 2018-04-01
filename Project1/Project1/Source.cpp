@@ -1,5 +1,3 @@
-// CS 143B PROJECT 1
-//Francisco Zavalza #62706684
 
 #include <iostream>
 #include <string>
